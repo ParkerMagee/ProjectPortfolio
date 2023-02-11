@@ -58,11 +58,23 @@ li {
   animation-delay: 0.5s;
 }
 
+@keyframes hide {
+  from {
+    position: absolute;
+  }
+  to {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+}
+
 .visually-hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+  animation-fill-mode: forwards;
+  animation-name: hide;
+  animation-duration: 0.5s;
+  animation-delay: 5s;
 }
