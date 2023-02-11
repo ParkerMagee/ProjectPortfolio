@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import timeout from "../functions/timeout";
 
 const LoadInPage = () => {
   useEffect(() => {
