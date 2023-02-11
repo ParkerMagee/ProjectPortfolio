@@ -57,3 +57,12 @@ li {
   animation-duration: 3s;
   animation-delay: 0.5s;
 }
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

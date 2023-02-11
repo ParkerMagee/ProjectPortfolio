@@ -12,7 +12,7 @@ const LoadInPage = () => {
 
     const waitTime = async () => {
       await timeout(4000);
-      loadInPage.classList.toggle("hidden");
+      loadInPage.classList.toggle("visually-hidden");
     };
     return waitTime;
   }, []);
