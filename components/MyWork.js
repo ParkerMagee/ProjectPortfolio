@@ -16,7 +16,7 @@ const MyWork = () => {
               Project 1
             </h1>
             <Link
-              href="#"
+              href="https://honda-parts-marketplace.onrender.com"
               className="relative w-72 h-48 object-contain flex flex-col-reverse md:w-96 md:h-64 lg:w-80 lg:h-56 xl:w-96 xl:h-64"
             >
               <Image
@@ -39,7 +39,7 @@ const MyWork = () => {
               Project 2
             </h1>
             <Link
-              href="#"
+              href="https://daily-workouts.onrender.com"
               className="relative w-72 h-48 object-contain flex flex-col-reverse md:w-96 md:h-64 lg:w-80 lg:h-56 xl:w-96 xl:h-64"
             >
               <Image
@@ -62,7 +62,7 @@ const MyWork = () => {
               Project 3
             </h1>
             <Link
-              href="#"
+              href="https://developer-chat-app-5439d.web.app"
               className="relative w-72 h-48 object-contain flex flex-col-reverse md:w-96 md:h-64 lg:w-80 lg:h-56 xl:w-96 xl:h-64"
             >
               <Image
