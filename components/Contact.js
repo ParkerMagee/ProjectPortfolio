@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <div id="contact" className="relative bg-darkGray">
+    <div id="contact" className="relative bg-darkGray pb-12">
       <div className="mt-32 py-36 flex flex-col items-center">
         <h1 className="text-white text-5xl text-center font-changa font-bold my-10">
           Let&#39;s Work Together
