@@ -22,7 +22,7 @@ const MyWork = () => {
               <Image
                 className="absolute object-cover rounded-lg w-full h-full"
                 src="/honda-parts-webpage.png"
-                alt="mock image"
+                alt="honda parts marketplace"
                 layout="fill"
               />
               <p className="text-sm relative w-full block text-white px-5 py-1 bg-mediumGray bg-opacity-70 rounded-lg md:text-base">
@@ -45,7 +45,7 @@ const MyWork = () => {
               <Image
                 className="absolute object-cover rounded-lg w-full h-full"
                 src="/daily-exercise-webpage.png"
-                alt="mock image"
+                alt="workout webpage"
                 layout="fill"
               />
               <p className="text-sm relative w-full block text-white px-5 py-1 bg-mediumGray bg-opacity-70 rounded-lg md:text-base">
@@ -68,7 +68,7 @@ const MyWork = () => {
               <Image
                 className="absolute object-cover rounded-lg w-full h-full"
                 src="/developer-chat-site.png"
-                alt="mock image"
+                alt="chat application"
                 layout="fill"
               />
               <p className="text-sm relative w-full block text-white px-5 py-1 bg-mediumGray bg-opacity-70 rounded-lg md:text-base">
@@ -82,7 +82,7 @@ const MyWork = () => {
             </Link>
           </div>
         </div>
-        {/* <div className="flex flex-col items-center mx-28 space-x-1 lg:flex-row">
+        <div className="flex flex-col items-center mx-28 space-x-1 lg:flex-row">
           <div className="my-10 lg:my-0">
             <h1 className="text-3xl text-center text-white my-2 font-changa">
               Project 4
@@ -93,19 +93,20 @@ const MyWork = () => {
             >
               <Image
                 className="absolute object-cover rounded-lg w-full h-full"
-                src="/western-sunset2.png"
-                alt="mock image"
+                src="/project-organizer.png"
+                alt="project organizer"
                 layout="fill"
               />
               <p className="relative w-full block text-grayBeige px-5 py-1 bg-mediumGray bg-opacity-80 rounded-lg">
-                This is mock text in place of future project descriptions. This
-                text will be replaced with a new description of my project soon.
-                This is mock text in place of future project descriptions. This
+                A full stack project organizer and task manager built using
+                React, with a Node.js backend. This application has integrated
+                authentication and allows users to create projects, add tasks to
+                those projects.
               </p>
               <div className="absolute w-full h-full rounded-lg bg-redOrange bg-opacity-20 hover:bg-transparent"></div>
             </Link>
           </div>
-        </div> */}
+        </div>
         <div className="text-2xl text-grayBeige text-center font-russo  border-b border-redOrange mx-10 px-1 py-2 my-16 md:px-5">
           There are always more projects to come
         </div>
