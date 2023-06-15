@@ -6,8 +6,9 @@ const IndexImage = () => {
   return (
     <div className="relative h-screen bg-gradient-to-b from-veryDarkGray to-transparent">
       <div>
+        <div className="absolute h-screen w-screen bg-gradient-to-b from-veryDarkGray to-transparent z-10"></div>
         <Image
-          className="absolute object-cover w-screen h-screen mix-blend-overlay z-0"
+          className="absolute object-cover w-screen h-screen z-0"
           src="/western-sunset1.png"
           alt="sunset"
           layout="fill"
